@@ -1,24 +1,29 @@
 package si.fri.prpo.lokacijskiopomniki.entitete;
 
 import javax.persistence.*;
-@Entity
+import java.util.List;
+import java.util.*;
+
 @Table(name="uporabnik")
 @NamedQueries(value =
         {
                 @NamedQuery(name = "Uporabnik.getAll", query = "SELECT o FROM Uporabnik o"),
-                @NamedQuery(name = "Uporabnik.getByUporabniskoIme", query = "SELECT o FROM Uporabnik o")
+                @NamedQuery(name = "Uporabnik.getByIdUporabnika",
+                        query = "SELECT o FROM Uporabnik o WHERE o.idOsebe =:idOsebe"),
+                @NamedQuery(name="Prehodi.getIdVhoda",
+                        query="SELECT CONCAT(\"idVhoda: \",o.idVhoda) FROM Prehodi o WHERE o.prostorId=:prostorId"),
         })
+@Entity
 public class Uporabnik {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
-    @Column(name = "id_osebe")
     private Integer idOsebe;
     private String ime;
     private String priimek;
 
-
-   // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy="uporabnik",cascade=CascadeType.ALL)
+    private List<Prehodi> prehodi;
 
     public Integer getId(){return idOsebe;}
 
@@ -32,5 +37,12 @@ public class Uporabnik {
 
     public void setPriimek(String priimek){this.priimek=priimek;}
 
+    public List<Prehodi> getPrehodi(){
+        return prehodi;
+    }
+
+    public void setPrehodi(List<Prehodi> nakupovalniSeznami){
+        this.prehodi=prehodi;}
 
 }
+

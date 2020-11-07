@@ -3,6 +3,7 @@ package si.fri.prpo.lokacijskiopomniki.entitete;
 import org.eclipse.persistence.jpa.jpql.parser.DateTime;
 
 import javax.persistence.*;
+import java.util.*;
 
 
 @Entity
@@ -10,22 +11,26 @@ import javax.persistence.*;
 @NamedQueries(value =
         {
                 @NamedQuery(name = "Prehodi.getAll", query = "SELECT o FROM Prostor o"),
-                @NamedQuery(name = "Prehodi.getByIdProstora", query = "SELECT o FROM Prostor o")
+                @NamedQuery(name = "Prehodi.getByIdProstora",
+                        query = "SELECT o FROM Prostor o")
+
         })
 public class Prostor {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
-    @Column(name = "id_prostora")
-    private Integer idprostora;
+    private  Integer idProstora;
+    @Column(name = "trenutnaZasedenost")
     private Integer trenutnaZasedenost;
+    @Column(name = "dovoljenoStObiskovalcev")
     private Integer dovoljenoStObiskovalcev;
+    @OneToMany(mappedBy = "prostor", cascade =CascadeType.ALL)
+    private List<Prehodi> prehodi;
 
     // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
 
-    public Integer getidprostora(){return idprostora;}
+    public Integer getidprostora(){return idProstora;}
 
-    public void setidVhoda(Integer idprostora){this.idprostora=idprostora;}
+    public void setidVhoda(Integer idprostora){this.idProstora=idProstora;}
 
     public Integer getTrenutnaZasedenost(){return trenutnaZasedenost;}
 
@@ -35,6 +40,10 @@ public class Prostor {
 
     public void setDovoljenoStObiskovalce(Integer dovoljenoStObiskovalcev){this.dovoljenoStObiskovalcev=dovoljenoStObiskovalcev;}
 
-
+    public List<Prehodi> getPrehodi(){
+        return prehodi;
+    }
+    public void setPrehodi(List<Prehodi> nakupovalniSeznami){
+        this.prehodi=prehodi;}
 
 }
