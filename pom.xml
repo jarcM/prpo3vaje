@@ -7,7 +7,7 @@
     <groupId>si.fri.prpo.lokacijskiopomniki</groupId>
     <artifactId>lokacijski-opomniki</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>api</module>
@@ -15,11 +15,11 @@
         <module>entitete</module>
     </modules>
 
-    <name>Nakupovalni seznami</name>
+    <name>Lokacijski Opomniki</name>
     <description>Storitev za delo z nakupovalnimi seznami.</description>
     <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kumuluzee.version>3.11.0</kumuluzee.version>
         <postgresql.version>42.2.18</postgresql.version>

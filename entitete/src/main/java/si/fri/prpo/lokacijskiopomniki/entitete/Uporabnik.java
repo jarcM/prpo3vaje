@@ -17,7 +17,7 @@ import java.util.*;
 public class Uporabnik {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idOsebe;
     private String ime;
     private String priimek;
@@ -41,7 +41,7 @@ public class Uporabnik {
         return prehodi;
     }
 
-    public void setPrehodi(List<Prehodi> nakupovalniSeznami){
+    public void setPrehodi(List<Prehodi> prehodi){
         this.prehodi=prehodi;}
 
 }

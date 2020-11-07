@@ -17,7 +17,7 @@ import java.util.*;
         })
 public class Prostor {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Integer idProstora;
     @Column(name = "trenutnaZasedenost")
     private Integer trenutnaZasedenost;

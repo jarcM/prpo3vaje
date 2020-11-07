@@ -17,10 +17,10 @@ import java.util.Date;
 public class Prehodi {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_vhoda")
     private Integer idVhoda;
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_izhoda")
     private Integer idIzhoda;
     @Column(name = "casVstopa")

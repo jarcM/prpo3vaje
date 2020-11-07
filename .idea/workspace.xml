@@ -1,116 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b28520-5368-44cc-95ac-09cfbd8b1af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entitete/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entitete/src/main/resources/sql-scripts/init-db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storitve/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" afterDir="false" />
+    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/prpo3vaje.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/resources/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/resources/sql-scripts/init-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/lokacijski-opomniki.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/src/main/resources/META-INF/beans.xml" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prpo3vaje" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\igre\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="openjdk-15" />
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1jv4ie5aaWUPF8VXGXKrKs0pfUG" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1jyqDNnXwXFxG8B3a5rw9qrHIcK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storitve/src/main/resources/META-INF" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\prpovaje3\prpo3vaje\entitete\src\main\resources\sql-scripts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\prpovaje3\prpo3vaje\storitve\src\main\resources\META-INF" />
-      <recent name="C:\Users\User\IdeaProjects\prpovaje3\prpo3vaje\api\src\main\resources\META-INF" />
+      <recent name="C:\Users\mihaj\IdeaProjects\lokacijskiopomniki" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="28b28520-5368-44cc-95ac-09cfbd8b1af2" name="Default Changelist" comment="" />
-      <created>1604671361494</created>
+      <changelist id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="" />
+      <created>1604786558652</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604671361494</updated>
-      <workItem from="1604671362524" duration="7362000" />
-      <workItem from="1604776880946" duration="7876000" />
+      <updated>1604786558652</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -122,59 +89,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="539" y="415" key="#Assign_Data_Sources" timestamp="1604677662127">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="539" y="415" key="#Assign_Data_Sources/0.0.2560.1040@0.0.2560.1040" timestamp="1604677662127" />
-    <state x="1400" y="98" key="#Project_Structure" timestamp="1604781417875">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1400" y="98" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1604781417875" />
-    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604677007746">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604677007746" />
-    <state x="1641" y="358" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604777267042">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1641" y="358" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040@0.0.2560.1040" timestamp="1604777267042" />
-    <state width="1232" height="281" key="GridCell.Tab.0.bottom" timestamp="1604784663120">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1232" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604784663120" />
-    <state width="1232" height="281" key="GridCell.Tab.0.center" timestamp="1604784663119">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1232" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604784663119" />
-    <state width="1232" height="281" key="GridCell.Tab.0.left" timestamp="1604784663119">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1232" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604784663119" />
-    <state width="1232" height="281" key="GridCell.Tab.0.right" timestamp="1604784663120">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1232" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604784663120" />
-    <state x="141" y="168" key="SettingsEditor" timestamp="1604673619547">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="141" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604673619547" />
-    <state x="745" y="151" width="585" height="801" key="find.popup" timestamp="1604678264653">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="745" y="151" width="585" height="801" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604678264653" />
-    <state x="22" y="184" key="new project wizard" timestamp="1604671446817">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="22" y="184" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1604671446817" />
-    <state x="296" y="244" key="run.anything.popup" timestamp="1604677237830">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="296" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604677237830" />
   </component>
 </project>
