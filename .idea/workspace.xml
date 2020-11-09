@@ -1,42 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/prpo3vaje.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/resources/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/api/src/main/resources/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/entitete/src/main/resources/sql-scripts/init-db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/lokacijski-opomniki.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prpo3vaje/storitve/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lokacijski-opomniki.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lokacijskiopomniki.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prpo3vaje" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="14" />
@@ -46,7 +59,15 @@
   </component>
   <component name="ProjectId" id="1jyqDNnXwXFxG8B3a5rw9qrHIcK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nakupovalni-seznami" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -54,18 +75,7 @@
       <recent name="C:\Users\mihaj\IdeaProjects\lokacijskiopomniki" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,8 +86,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604786558652</updated>
+      <workItem from="1604962618402" duration="2788000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -89,5 +103,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="232" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604963291424">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="232" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604963291424" />
+    <state x="420" y="278" key="FileChooserDialogImpl" timestamp="1604962902032">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604962902032" />
+    <state width="1234" height="297" key="GridCell.Tab.0.bottom" timestamp="1604965292334">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="297" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604965292334" />
+    <state width="1234" height="297" key="GridCell.Tab.0.center" timestamp="1604965292334">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="297" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604965292334" />
+    <state width="1234" height="297" key="GridCell.Tab.0.left" timestamp="1604965292334">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="297" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604965292334" />
+    <state width="1234" height="297" key="GridCell.Tab.0.right" timestamp="1604965292334">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="297" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604965292334" />
   </component>
 </project>

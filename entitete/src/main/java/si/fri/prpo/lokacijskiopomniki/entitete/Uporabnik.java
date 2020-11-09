@@ -2,8 +2,7 @@ package si.fri.prpo.lokacijskiopomniki.entitete;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.*;
-
+@Entity
 @Table(name="uporabnik")
 @NamedQueries(value =
         {
@@ -13,13 +12,13 @@ import java.util.*;
                 @NamedQuery(name="Prehodi.getIdVhoda",
                         query="SELECT CONCAT(\"idVhoda: \",o.idVhoda) FROM Prehodi o WHERE o.prostorId=:prostorId"),
         })
-@Entity
 public class Uporabnik {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idOsebe;
+    @Column(name="ime")
     private String ime;
+    @Column(name="priimek")
     private String priimek;
 
     @OneToMany(mappedBy="uporabnik",cascade=CascadeType.ALL)

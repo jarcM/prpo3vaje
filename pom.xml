@@ -16,7 +16,7 @@
     </modules>
 
     <name>Lokacijski Opomniki</name>
-    <description>Storitev za delo z nakupovalnimi seznami.</description>
+    <description>Storitev za delo z lokacijskimi opomniki.</description>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
