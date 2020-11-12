@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class JPAServlet extends HttpServlet {
 
     @Inject
-    private UporabnikZrno uporabnikiZrno;
+    private UporabnikZrno uporabnikZrno;
 
     private Logger log=Logger.getLogger(JPAServlet.class.getName());
 
@@ -25,7 +25,9 @@ public class JPAServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         PrintWriter pw=resp.getWriter();
-        uporabnikiZrno.getUporabniki().stream().forEach(u->pw.append(u.toString()+" "));
+        pw.append("<br>List Uporabnikov<br>");
+        uporabnikZrno.getUporabniki().stream().forEach(o->pw.append(o.toString()+" "));
+
 
     }
 }

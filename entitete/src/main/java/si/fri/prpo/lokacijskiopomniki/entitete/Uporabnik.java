@@ -11,7 +11,9 @@ import java.util.List;
                         query = "SELECT o FROM Uporabnik o WHERE o.idOsebe =:idOsebe"),
                 @NamedQuery(name="Prehodi.getIdVhoda",
                         query="SELECT CONCAT(\"idVhoda: \",o.idVhoda) FROM Prehodi o WHERE o.prostorId=:prostorId"),
+
         })
+
 public class Uporabnik {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +23,7 @@ public class Uporabnik {
     @Column(name="priimek")
     private String priimek;
 
-    @OneToMany(mappedBy="uporabnik",cascade=CascadeType.ALL)
+    //@OneToMany(mappedBy="uporabnik",cascade=CascadeType.ALL)
     private List<Prehodi> prehodi;
 
     public Integer getId(){return idOsebe;}

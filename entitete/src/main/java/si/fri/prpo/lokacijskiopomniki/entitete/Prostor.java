@@ -10,9 +10,9 @@ import java.util.*;
 @Table(name="prostor")
 @NamedQueries(value =
         {
-                @NamedQuery(name = "Prehodi.getAll", query = "SELECT o FROM Prostor o"),
-                @NamedQuery(name = "Prehodi.getByIdProstora",
-                        query = "SELECT o FROM Prostor o")
+                @NamedQuery(name = "Prostor.getAll", query = "SELECT o FROM Prostor o"),
+               /* @NamedQuery(name = "Prehodi.getByIdProstora",
+                        query = "SELECT o FROM Prostor o")*/
 
         })
 public class Prostor {
@@ -23,14 +23,14 @@ public class Prostor {
     private Integer trenutnaZasedenost;
     @Column(name = "dovoljenoStObiskovalcev")
     private Integer dovoljenoStObiskovalcev;
-    @OneToMany(mappedBy = "prostor", cascade =CascadeType.ALL)
+    //@OneToMany(mappedBy = "prostor", cascade =CascadeType.ALL)
     private List<Prehodi> prehodi;
 
     // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
 
-    public Integer getidprostora(){return idProstora;}
+    public Integer getIdProstora(){return idProstora;}
 
-    public void setidVhoda(Integer idprostora){this.idProstora=idProstora;}
+    public void setidProstora(Integer idprostora){this.idProstora=idProstora;}
 
     public Integer getTrenutnaZasedenost(){return trenutnaZasedenost;}
 

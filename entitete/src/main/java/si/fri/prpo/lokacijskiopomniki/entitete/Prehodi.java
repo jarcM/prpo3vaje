@@ -11,16 +11,16 @@ import java.util.Date;
 @NamedQueries(value =
         {
                 @NamedQuery(name = "Prehodi.getAll", query = "SELECT o FROM Prehodi o"),
-                @NamedQuery(name = "Prehodi.getByUporabniskoIme",
-                        query = "SELECT o FROM Prehodi o")
+             /*   @NamedQuery(name = "Prehodi.getByUporabniskoIme",
+                        query = "SELECT o FROM Prehodi o")*/
         })
 public class Prehodi {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_prehoda")
+    private Integer idPrehoda;
     @Column(name = "id_vhoda")
     private Integer idVhoda;
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_izhoda")
     private Integer idIzhoda;
     @Column(name = "casVstopa")
@@ -35,6 +35,10 @@ public class Prehodi {
     private Prostor prostorId;
 
     // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
+
+    public Integer getIdPrehoda(){return idPrehoda;}
+
+    public void setIdPrehoda(Integer idPrehoda){this.idPrehoda=idPrehoda;}
 
     public Integer getIdVhoda(){return idVhoda;}
 

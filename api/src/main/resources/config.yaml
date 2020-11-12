@@ -5,7 +5,7 @@ kumuluzee:
     name: dev
   datasources:
     - jndi-name: jdbc/LokacijskiOpomnikiDS
-      connection-url: jdbc:postgresql://localhost:5432/lokacijskiopomniki
+      connection-url: jdbc:postgresql://localhost:5432/uporabniki
       username: postgres
       password: postgres
       max-pool-size: 20
