@@ -1,5 +1,6 @@
 package servleti;
 
+import si.fri.prpo.lokacijskiopomniki.storitve.PrehodiZrno;
 import si.fri.prpo.lokacijskiopomniki.storitve.UporabnikZrno;
 
 import javax.inject.Inject;
@@ -18,6 +19,8 @@ public class JPAServlet extends HttpServlet {
 
     @Inject
     private UporabnikZrno uporabnikZrno;
+    @Inject
+    private PrehodiZrno prehodiZrno;
 
     private Logger log=Logger.getLogger(JPAServlet.class.getName());
 
@@ -26,7 +29,9 @@ public class JPAServlet extends HttpServlet {
 
         PrintWriter pw=resp.getWriter();
         pw.append("<br>List Uporabnikov<br>");
-        uporabnikZrno.getUporabniki().forEach(o-> pw.append(o.getIme()).append("<br>"));
+        uporabnikZrno.getUporabniki().forEach(o-> pw.append(String.valueOf(o.getId())).append(o.getIme()).append("<br>"));
+        pw.append(uporabnikZrno.pridobiUporabnika(1).getIme());
+        prehodiZrno.getPrehod().forEach(o-> pw.append(String.valueOf(o.getIdPrehoda())).append(o.getUporabnikId().getIme()).append(o.getProstorId().getTrenutnaZasedenost().toString()).append("<br>"));
         log(String.valueOf(uporabnikZrno.getUporabniki()));
 
 

@@ -1563,6 +1563,7 @@ sequence|table|16436|16438|1
     </table>
     <table id="31" parent="15" name="prostor">
       <ObjectId>16422</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>580</StateNumber>
     </table>
