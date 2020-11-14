@@ -51,14 +51,22 @@ public class UpravljanjePrehodiZrno{
             return null;
 
         }
+        Prostor prostor=prostorZrno.pridobiProstor(prehodiDTO.getProstorId());
+
+        if(prostor == null){
+            log.info("Ne morem ustvariti novega prehoda. Uporabnik ne obstaja");
+            return null;
+
+        }
         Prehodi prehodi=new Prehodi();
-        //prehodi.setUporabnikId(uporabnik);
-        uporabnik.getPrehodi().add(prehodi);
-        prehodi.setIdVhoda(prehodiDTO.getidIzhoda());
+        prehodi.setUporabnikId(uporabnik);
+        prehodi.setProstorId(prostor);
+        uporabnik.getPrehodi().add(prehodi); // whyyyy
         prehodi.setIdVhoda(prehodiDTO.getidVhoda());
-        prehodi.setCasIzstopa(prehodiDTO.getcasVstopa());
-        prehodi.setCasVstopa(prehodiDTO.getcasIzstopa());
-        return prehodiZrno.addPrehod(prehodi);
+        prehodi.setIdIzhoda(prehodiDTO.getidIzhoda());
+        prehodi.setCasIzstopa(prehodiDTO.getcasIzstopa());
+        prehodi.setCasVstopa(prehodiDTO.getcasVstopa());
+        return prehodi;
     }
 
 }

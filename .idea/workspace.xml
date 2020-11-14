@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="Popravek errorjev">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="updated gitIgnore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +70,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nakszn/nakupovalni-seznami" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -130,7 +132,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1605373012794</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="updated gitIgnore">
+      <created>1605373096449</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1605373096449</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,17 +159,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reading correctly" />
     <MESSAGE value="Popravek errorjev" />
-    <option name="LAST_COMMIT_MESSAGE" value="Popravek errorjev" />
+    <MESSAGE value="updated gitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitIgnore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1180" y="592" width="485" height="216" key="#Assign_Data_Sources" timestamp="1605366999107">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1180" y="592" width="485" height="216" key="#Assign_Data_Sources/0.0.2560.1400@0.0.2560.1400" timestamp="1605366999107" />
-    <state x="761" y="275" key="#Project_Structure" timestamp="1605366084431">
+    <state x="761" y="275" key="#Project_Structure" timestamp="1605376807954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="761" y="275" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1605366084431" />
+    <state x="761" y="275" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1605376807954" />
     <state x="733" y="542" key="#SQL_Dialects" timestamp="1605371270751">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -175,26 +184,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605194038374" />
-    <state width="2517" height="397" key="GridCell.Tab.0.bottom" timestamp="1605372445293">
+    <state width="2517" height="396" key="GridCell.Tab.0.bottom" timestamp="1605377072273">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1235" height="317" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
-    <state width="2517" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605372445293" />
-    <state width="2517" height="397" key="GridCell.Tab.0.center" timestamp="1605372445293">
+    <state width="2517" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
+    <state width="2517" height="396" key="GridCell.Tab.0.center" timestamp="1605377072273">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1235" height="317" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
-    <state width="2517" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605372445293" />
-    <state width="2517" height="397" key="GridCell.Tab.0.left" timestamp="1605372445292">
+    <state width="2517" height="396" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
+    <state width="2517" height="396" key="GridCell.Tab.0.left" timestamp="1605377072273">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1235" height="317" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722791" />
-    <state width="2517" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605372445292" />
-    <state width="2517" height="397" key="GridCell.Tab.0.right" timestamp="1605372445293">
+    <state width="2517" height="396" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
+    <state width="2517" height="396" key="GridCell.Tab.0.right" timestamp="1605377072273">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1235" height="317" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
-    <state width="2517" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605372445293" />
+    <state width="2517" height="396" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
     <state width="2517" height="494" key="GridCell.Tab.1.bottom" timestamp="1605372433889">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -220,10 +229,10 @@
     </state>
     <state x="141" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605194802857" />
     <state x="141" y="226" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605367159575" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605373025069">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605373104157">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605373025069" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605373104157" />
     <state x="538" y="384" width="417" height="279" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605197594829">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -241,9 +250,13 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="458" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605197802180" />
-    <state x="987" y="433" width="587" height="592" key="find.popup" timestamp="1605369642880">
+    <state x="987" y="433" width="587" height="592" key="find.popup" timestamp="1605375011704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="433" width="587" height="592" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605369642880" />
+    <state x="987" y="433" width="587" height="592" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605375011704" />
+    <state x="937" y="331" key="run.anything.popup" timestamp="1605376178888">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605376178888" />
   </component>
 </project>

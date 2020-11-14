@@ -2,6 +2,7 @@ package si.fri.prpo.lokacijskiopomniki.storitve.dto;
 
 public class PrehodiDTO{
     private Integer uporabnikId;
+    private Integer prostorId;
     private Integer idVhoda;
     private Integer idIzhoda;
     private Integer prehodProstor;
@@ -13,6 +14,12 @@ public class PrehodiDTO{
     }
     public void setUporabnikId(Integer uporabnikId){
         this.uporabnikId=uporabnikId;
+    }
+    public Integer getProstorId(){
+        return uporabnikId;
+    }
+    public void setProstorId(Integer prostorId){
+        this.prostorId=prostorId;
     }
 
     public Integer getidVhoda(){
