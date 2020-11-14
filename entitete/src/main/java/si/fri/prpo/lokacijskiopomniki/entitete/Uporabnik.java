@@ -23,7 +23,7 @@ public class Uporabnik {
     @Column(name="priimek")
     private String priimek;
 
-    //@OneToMany(mappedBy="uporabnik",cascade=CascadeType.ALL)
+    @OneToMany(mappedBy="uporabnikId",cascade=CascadeType.ALL)
     private List<Prehodi> prehodi;
 
     public Integer getId(){return idOsebe;}

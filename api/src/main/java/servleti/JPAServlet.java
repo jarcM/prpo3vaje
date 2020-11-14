@@ -26,7 +26,8 @@ public class JPAServlet extends HttpServlet {
 
         PrintWriter pw=resp.getWriter();
         pw.append("<br>List Uporabnikov<br>");
-        uporabnikZrno.getUporabniki().stream().forEach(o->pw.append(o.toString()+" "));
+        uporabnikZrno.getUporabniki().forEach(o-> pw.append(o.getIme()).append("<br>"));
+        log(String.valueOf(uporabnikZrno.getUporabniki()));
 
 
     }

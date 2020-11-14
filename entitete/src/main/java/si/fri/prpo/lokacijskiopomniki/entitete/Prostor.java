@@ -23,10 +23,9 @@ public class Prostor {
     private Integer trenutnaZasedenost;
     @Column(name = "dovoljenoStObiskovalcev")
     private Integer dovoljenoStObiskovalcev;
-    //@OneToMany(mappedBy = "prostor", cascade =CascadeType.ALL)
-    private List<Prehodi> prehodi;
 
-    // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "prostorId", cascade =CascadeType.ALL)
+    private List<Prehodi> prehodi;
 
     public Integer getIdProstora(){return idProstora;}
 

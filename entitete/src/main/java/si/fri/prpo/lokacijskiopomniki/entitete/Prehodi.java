@@ -1,18 +1,15 @@
 package si.fri.prpo.lokacijskiopomniki.entitete;
 
 
-import org.eclipse.persistence.jpa.jpql.parser.DateTime;
-
 import javax.persistence.*;
-import java.util.*;
-import java.util.Date;
+
 @Entity
 @Table(name="prehodi")
 @NamedQueries(value =
         {
                 @NamedQuery(name = "Prehodi.getAll", query = "SELECT o FROM Prehodi o"),
-             /*   @NamedQuery(name = "Prehodi.getByUporabniskoIme",
-                        query = "SELECT o FROM Prehodi o")*/
+//                @NamedQuery(name = "Prehodi.getByUporabniskoIme",
+//                        query = "SELECT o FROM Prehodi o")
         })
 public class Prehodi {
 
@@ -24,17 +21,15 @@ public class Prehodi {
     @Column(name = "id_izhoda")
     private Integer idIzhoda;
     @Column(name = "casVstopa")
-    private String časVstopa;
+    private String casVstopa;
     @Column(name = "casIzstopa")
-    private String časIzstopa;
+    private String casIzstopa;
     @ManyToOne
     @JoinColumn(name="uporabnik_id")
     private Uporabnik uporabnikId;
     @ManyToOne
     @JoinColumn(name="prostor_id")
     private Prostor prostorId;
-
-    // @OneToMany(mappedBy = "uporabnik", cascade = CascadeType.ALL)
 
     public Integer getIdPrehoda(){return idPrehoda;}
 
@@ -48,13 +43,13 @@ public class Prehodi {
 
     public void setIdIzhoda(Integer idIzhoda){this.idIzhoda=idIzhoda;}
 
-    public String getČasVstopa(){return časVstopa;}
+    public String getCasVstopa(){return casVstopa;}
 
-    public void setČasVstopa(String časVstopa){this.časVstopa=časVstopa;}
+    public void setCasVstopa(String casVstopa){this.casVstopa = casVstopa;}
 
-    public String getČasIzstopaa(){return časVstopa;}
+    public String getCasIzstopa(){return casVstopa;}
 
-    public void setČasIzstopatopa(String časIzstopa){this.časVstopa=časIzstopa;}
+    public void setCasIzstopatopa(String casIzstopa){this.casVstopa = casIzstopa;}
 
     public Uporabnik getUporabnikId(){return uporabnikId;}
 

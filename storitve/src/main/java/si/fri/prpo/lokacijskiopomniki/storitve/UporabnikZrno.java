@@ -31,6 +31,7 @@ public class UporabnikZrno {
     public Uporabnik pridobiUporabnika(int idOsebe) {
         return em.find(Uporabnik.class,idOsebe);
     }
+
     public List<Uporabnik> pridobiUporabnikeCriteriaAPI(){
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder() ;
         CriteriaQuery<Uporabnik> query= criteriaBuilder.createQuery(Uporabnik.class);
