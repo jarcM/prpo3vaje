@@ -1,0 +1,419 @@
+Index: .idea/prpo3vaje.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\" />
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/prpo3vaje.iml	(revision 492a1afdf5b55807744b9b84126e64b57ab291d5)
++++ .idea/prpo3vaje.iml	(date 1605370547283)
+@@ -1,2 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"90d6af42-25ef-4b66-a99b-ab50fccace69\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6/storage_v2/_src_/database/uporabniki.OMfIxw/schema/public.abK9xQ.meta\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6/storage_v2/_src_/database/uporabniki.OMfIxw/schema/public.abK9xQ.meta\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"jdkForImporter\" value=\"1.8\" />\n        <option name=\"vmOptionsForImporter\" value=\"-Xmx768m\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1jyqDNnXwXFxG8B3a5rw9qrHIcK\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DatabaseDriversLRU\" value=\"postgresql\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../../nakszn/nakupovalni-seznami\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"Errors\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\mihaj\\IdeaProjects\\lokacijskiopomniki\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Run\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.kumuluz.ee.EeApplication\" />\n      <module name=\"api\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"90d6af42-25ef-4b66-a99b-ab50fccace69\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604786558652</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604786558652</updated>\n      <workItem from=\"1604962618402\" duration=\"2788000\" />\n      <workItem from=\"1605010165175\" duration=\"1243000\" />\n      <workItem from=\"1605016284457\" duration=\"1194000\" />\n      <workItem from=\"1605192192138\" duration=\"17090000\" />\n      <workItem from=\"1605365804187\" duration=\"4343000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"1180\" y=\"592\" width=\"485\" height=\"216\" key=\"#Assign_Data_Sources\" timestamp=\"1605366999107\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"1180\" y=\"592\" width=\"485\" height=\"216\" key=\"#Assign_Data_Sources/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605366999107\" />\n    <state x=\"761\" y=\"275\" key=\"#Project_Structure\" timestamp=\"1605366084431\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"761\" y=\"275\" key=\"#Project_Structure/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605366084431\" />\n    <state x=\"753\" y=\"329\" width=\"1089\" height=\"713\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1605366696507\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"232\" y=\"182\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605197631177\" />\n    <state x=\"753\" y=\"329\" width=\"1089\" height=\"713\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605366696507\" />\n    <state x=\"420\" y=\"278\" key=\"FileChooserDialogImpl\" timestamp=\"1605194038374\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1040\" />\n    </state>\n    <state x=\"420\" y=\"278\" key=\"FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605194038374\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1605369977117\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"1235\" height=\"317\" key=\"GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605209722792\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369977117\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.center\" timestamp=\"1605369977116\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"1235\" height=\"317\" key=\"GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605209722792\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369977116\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.left\" timestamp=\"1605369977116\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"1235\" height=\"317\" key=\"GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605209722791\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369977116\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.right\" timestamp=\"1605369977116\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"1235\" height=\"317\" key=\"GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605209722792\" />\n    <state width=\"2517\" height=\"400\" key=\"GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369977116\" />\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1605369531608\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369531608\" />\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.center\" timestamp=\"1605369531608\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369531608\" />\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.left\" timestamp=\"1605369531608\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369531608\" />\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.right\" timestamp=\"1605369531608\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state width=\"2517\" height=\"492\" key=\"GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369531608\" />\n    <state width=\"196\" height=\"457\" key=\"HiddenNamespacesPopup\" timestamp=\"1605192433809\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1040\" />\n    </state>\n    <state width=\"196\" height=\"457\" key=\"HiddenNamespacesPopup/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605192433809\" />\n    <state x=\"141\" y=\"226\" key=\"SettingsEditor\" timestamp=\"1605367159575\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"141\" y=\"168\" key=\"SettingsEditor/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605194802857\" />\n    <state x=\"141\" y=\"226\" key=\"SettingsEditor/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605367159575\" />\n    <state x=\"538\" y=\"384\" width=\"417\" height=\"279\" key=\"com.intellij.database.actions.DdlActions$CreateObject$1\" timestamp=\"1605197594829\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1040\" />\n    </state>\n    <state x=\"538\" y=\"384\" width=\"417\" height=\"279\" key=\"com.intellij.database.actions.DdlActions$CreateObject$1/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605197594829\" />\n    <state x=\"436\" y=\"344\" width=\"408\" height=\"355\" key=\"com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog\" timestamp=\"1605197339123\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1040\" />\n    </state>\n    <state x=\"436\" y=\"344\" width=\"408\" height=\"355\" key=\"com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605197339123\" />\n    <state x=\"210\" y=\"462\" width=\"783\" height=\"663\" key=\"com.intellij.database.view.ui.AbstractDbRefactoringDialog\" timestamp=\"1605366486811\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"210\" y=\"343\" width=\"835\" height=\"660\" key=\"com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605196676390\" />\n    <state x=\"210\" y=\"462\" width=\"783\" height=\"663\" key=\"com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605366486811\" />\n    <state x=\"458\" y=\"437\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1605197802180\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1040\" />\n    </state>\n    <state x=\"458\" y=\"437\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040\" timestamp=\"1605197802180\" />\n    <state x=\"987\" y=\"433\" width=\"587\" height=\"592\" key=\"find.popup\" timestamp=\"1605369642880\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1400\" />\n    </state>\n    <state x=\"987\" y=\"433\" width=\"587\" height=\"592\" key=\"find.popup/0.0.2560.1400@0.0.2560.1400\" timestamp=\"1605369642880\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 492a1afdf5b55807744b9b84126e64b57ab291d5)
++++ .idea/workspace.xml	(date 1605372008373)
+@@ -23,17 +23,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6/storage_v2/_src_/database/uporabniki.OMfIxw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d6e9188-da71-4dd0-b3d7-83ba145d75b6/storage_v2/_src_/database/uporabniki.OMfIxw/schema/public.abK9xQ.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/ProstorDTO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/UporabnikDTO.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/prpo3vaje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prpo3vaje.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prostor.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Uporabnik.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -53,12 +49,12 @@
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
++        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+       </MavenGeneralSettings>
+     </option>
+     <option name="importingSettings">
+       <MavenImportingSettings>
+-        <option name="jdkForImporter" value="1.8" />
++        <option name="jdkForImporter" value="14" />
+         <option name="vmOptionsForImporter" value="-Xmx768m" />
+       </MavenImportingSettings>
+     </option>
+@@ -75,13 +71,13 @@
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nakszn/nakupovalni-seznami" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../kekw/prpo3vaje" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="project.structure.last.edited" value="Project" />
+     <property name="project.structure.proportion" value="0.0" />
+     <property name="project.structure.side.proportion" value="0.0" />
+     <property name="restartRequiresConfirmation" value="false" />
+-    <property name="settings.editor.selected.configurable" value="Errors" />
++    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+@@ -92,6 +88,17 @@
+     <configuration name="Run" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="com.kumuluz.ee.EeApplication" />
+       <module name="api" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -113,6 +120,8 @@
+       <workItem from="1605016284457" duration="1194000" />
+       <workItem from="1605192192138" duration="17090000" />
+       <workItem from="1605365804187" duration="4343000" />
++      <workItem from="1605370428242" duration="35000" />
++      <workItem from="1605370491403" duration="1516000" />
+     </task>
+     <servers />
+   </component>
+@@ -136,38 +145,43 @@
+       <screen x="0" y="0" width="2560" height="1400" />
+     </state>
+     <state x="1180" y="592" width="485" height="216" key="#Assign_Data_Sources/0.0.2560.1400@0.0.2560.1400" timestamp="1605366999107" />
+-    <state x="761" y="275" key="#Project_Structure" timestamp="1605366084431">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state x="761" y="189" key="#Project_Structure" timestamp="1605370529742">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
++    <state x="761" y="189" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1605370529742" />
+     <state x="761" y="275" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1605366084431" />
+     <state x="753" y="329" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605366696507">
+       <screen x="0" y="0" width="2560" height="1400" />
+     </state>
+     <state x="232" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605197631177" />
+     <state x="753" y="329" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605366696507" />
+-    <state x="420" y="278" key="FileChooserDialogImpl" timestamp="1605194038374">
++    <state x="394" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605371206354">
++      <screen x="0" y="0" width="2560" height="1040" />
++    </state>
++    <state x="394" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1605371206354" />
++    <state x="420" y="278" key="FileChooserDialogImpl" timestamp="1605370771125">
+       <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605194038374" />
+-    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1605369977117">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605370771125" />
++    <state width="1235" height="310" key="GridCell.Tab.0.bottom" timestamp="1605370602736">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state width="1235" height="317" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
++    <state width="1235" height="310" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605370602736" />
+     <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605369977117" />
+-    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1605369977116">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state width="1235" height="310" key="GridCell.Tab.0.center" timestamp="1605370602736">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state width="1235" height="317" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
++    <state width="1235" height="310" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605370602736" />
+     <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605369977116" />
+-    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1605369977116">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state width="1235" height="310" key="GridCell.Tab.0.left" timestamp="1605370602736">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state width="1235" height="317" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722791" />
++    <state width="1235" height="310" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605370602736" />
+     <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605369977116" />
+-    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1605369977116">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state width="1235" height="310" key="GridCell.Tab.0.right" timestamp="1605370602736">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state width="1235" height="317" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
++    <state width="1235" height="310" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605370602736" />
+     <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605369977116" />
+     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1605369531608">
+       <screen x="0" y="0" width="2560" height="1400" />
+@@ -189,10 +203,10 @@
+       <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2560.1040@0.0.2560.1040" timestamp="1605192433809" />
+-    <state x="141" y="226" key="SettingsEditor" timestamp="1605367159575">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state x="141" y="168" key="SettingsEditor" timestamp="1605370508478">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+-    <state x="141" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605194802857" />
++    <state x="141" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605370508478" />
+     <state x="141" y="226" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605367159575" />
+     <state x="538" y="384" width="417" height="279" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605197594829">
+       <screen x="0" y="0" width="2560" height="1040" />
+@@ -211,9 +225,18 @@
+       <screen x="0" y="0" width="2560" height="1040" />
+     </state>
+     <state x="458" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605197802180" />
+-    <state x="987" y="433" width="587" height="592" key="find.popup" timestamp="1605369642880">
+-      <screen x="0" y="0" width="2560" height="1400" />
++    <state x="93" y="100" width="1095" height="847" key="dock-window-1" timestamp="1605370509189">
++      <screen x="0" y="0" width="2560" height="1040" />
++    </state>
++    <state x="93" y="100" width="1095" height="847" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1605370509189" />
++    <state x="987" y="322" width="587" height="592" key="find.popup" timestamp="1605371255442">
++      <screen x="0" y="0" width="2560" height="1040" />
+     </state>
++    <state x="987" y="322" width="587" height="592" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605371255442" />
+     <state x="987" y="433" width="587" height="592" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605369642880" />
++    <state x="296" y="244" key="run.anything.popup" timestamp="1605371347673">
++      <screen x="0" y="0" width="2560" height="1040" />
++    </state>
++    <state x="296" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605371347673" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\n  <component name=\"MavenProjectsManager\">\n    <option name=\"originalFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_14\" default=\"false\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 492a1afdf5b55807744b9b84126e64b57ab291d5)
++++ .idea/misc.xml	(date 1605370530161)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java	(date 1605370916030)
++++ storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java	(date 1605370916030)
+@@ -0,0 +1,65 @@
++package si.fri.prpo.lokacijskiopomniki.storitve;
++
++import si.fri.prpo.lokacijskiopomniki.entitete.Uporabnik;
++
++import si.fri.prpo.lokacijskiopomniki.entitete.Prehodi;
++import si.fri.prpo.lokacijskiopomniki.entitete.Prostor;
++import si.fri.prpo.lokacijskiopomniki.storitve.dto.UporabnikDTO;
++import si.fri.prpo.lokacijskiopomniki.storitve.dto.ProstorDTO;
++import si.fri.prpo.lokacijskiopomniki.storitve.dto.PrehodiDTO;
++import si.fri.prpo.lokacijskiopomniki.storitve.UporabnikZrno;
++
++import javax.annotation.PostConstruct;
++import javax.annotation.PreDestroy;
++import javax.enterprise.context.ApplicationScoped;
++import javax.inject.Inject;
++import javax.transaction.Transactional;
++import java.time.Instant;
++import java.util.ArrayList;
++import java.util.List;
++import java.util.logging.Logger;
++
++@ApplicationScoped
++public class UpravljanjePrehodiZrno{
++    private Logger log=Logger.getLogger(UpravljanjePrehodiZrno.class.getName());
++    private String zrnoID;
++
++    @Inject
++    private ProstorZrno prostorZrno;
++
++    @Inject
++    private UporabnikZrno uporabnikiZrno;
++
++    @Inject
++    private PrehodiZrno prehodiZrno;
++
++    @PostConstruct
++    private void init(){
++        log.info("Inicializacije zrna" + UpravljanjePrehodiZrno.class.getSimpleName());
++    }
++
++    @PreDestroy
++    private void destroy(){
++        log.info("Definicija zrna" + UpravljanjePrehodiZrno.class.getSimpleName());
++    }
++    @Transactional
++    public Prehodi createPrehodi(PrehodiDTO prehodiDTO){
++        Uporabnik uporabnik=uporabnikiZrno.pridobiUporabnika(prehodiDTO.getUporabnikId());
++
++        if(uporabnik == null){
++            log.info("Ne morem ustvariti novega prehoda. Uporabnik ne obstaja");
++            return null;
++
++        }
++        Prehodi prehodi=new Prehodi();
++        //prehodi.setUporabnikId(uporabnik);
++        uporabnik.getPrehodi().add(prehodi);
++        prehodi.setIdVhoda(prehodiDTO.getIdIzhoda());
++        prehodi.setIdVhoda(prehodiDTO.getIdVhoda());
++        prehodi.setČasIzstopa(prehodiDTO.getČasVhoda());
++        prehodi.setČasVstopa(prehodiDTO.getČasIzhoda());
++        prehodi.setUstvarjen(Instant.now());
++        return prehodiZrno.addPrehod(prehodi);
++    }
++
++}
+\ No newline at end of file
+Index: storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/ProstorDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/ProstorDTO.java	(date 1605371062471)
++++ storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/ProstorDTO.java	(date 1605371062471)
+@@ -0,0 +1,22 @@
++package si.fri.prpo.lokacijskiopomniki.storitve.dto;
++
++public class ProstorDTO{
++    private Integer prostorId;
++    private Integer prehodiId;
++
++    public Integer getUporabnikId(){
++        return prostorId;
++    }
++
++    public void setprostorId(Integer prostorId){
++        this.prostorId=prostorId;
++    }
++
++    public Integer getPrehodiId(){
++        return prehodiId;
++    }
++
++    public void setNsID(Integer nsID){
++        this.prehodiId=prehodiId;
++    }
++}
+\ No newline at end of file
+Index: storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java	(date 1605371404569)
++++ storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java	(date 1605371404569)
+@@ -0,0 +1,45 @@
++package si.fri.prpo.lokacijskiopomniki.storitve.dto;
++
++public class PrehodiDTO{
++    private Integer uporabnikId;
++    private Integer idVhoda;
++    private Integer prehodProstor;
++    private String časVstopa;
++    private String časIzstopa;
++
++    public Integer getUporabnikId(){
++        return uporabnikId;
++    }
++    public void setUporabnikId(Integer uporabnikId){
++        this.uporabnikId=uporabnikId;
++    }
++
++    public Integer getidVhoda(){
++        return idVhoda;
++    }
++    public void setidVhoda(Integer idVhoda){
++        this.idVhoda=idVhoda;
++    }
++
++    public Integer getčasIzstopa(){
++        return časIzstopa;
++    }
++    public void setčasIzstopa(Integer časIzstopa){
++        this.časIzstopa=idIzhoda;
++    }
++
++    public Integer getidIzhoda(){
++        return idIzhoda;
++    }
++    public void setidIzhoda(Integer idIzhoda){
++        this.idIzhoda=idIzhoda;
++    }
++
++    public Integer getčasVstopa(){
++        return časVstopa;
++    }
++    public void setčasVstopa(Integer časVstopa){
++        this.časVstopa=idIzhoda;
++    }
++
++}
+\ No newline at end of file
+Index: storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/UporabnikDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/UporabnikDTO.java	(date 1605371152398)
++++ storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/UporabnikDTO.java	(date 1605371152398)
+@@ -0,0 +1,22 @@
++package si.fri.prpo.lokacijskiopomniki.storitve.dto;
++
++public class UporabnikDTO{
++    private Integer uporabnikId;
++    private Integer prehodiId;
++
++    public Integer getUporabnikId(){
++        return uporabnikId;
++    }
++
++    public void setUporabnikId(Integer uporabnikId){
++        this.uporabnikId=uporabnikId;
++    }
++
++    public Integer getPrehodiId(){
++        return prehodiId;
++    }
++
++    public void setNsID(Integer nsID){
++        this.prehodiId=prehodiId;
++    }
++}
+\ No newline at end of file
