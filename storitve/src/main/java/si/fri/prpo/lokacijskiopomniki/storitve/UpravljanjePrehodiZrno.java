@@ -54,11 +54,10 @@ public class UpravljanjePrehodiZrno{
         Prehodi prehodi=new Prehodi();
         //prehodi.setUporabnikId(uporabnik);
         uporabnik.getPrehodi().add(prehodi);
-        prehodi.setIdVhoda(prehodiDTO.getIdIzhoda());
-        prehodi.setIdVhoda(prehodiDTO.getIdVhoda());
-        prehodi.setČasIzstopa(prehodiDTO.getČasVhoda());
-        prehodi.setČasVstopa(prehodiDTO.getČasIzhoda());
-        prehodi.setUstvarjen(Instant.now());
+        prehodi.setIdVhoda(prehodiDTO.getidIzhoda());
+        prehodi.setIdVhoda(prehodiDTO.getidVhoda());
+        prehodi.setCasIzstopa(prehodiDTO.getcasVstopa());
+        prehodi.setCasVstopa(prehodiDTO.getcasIzstopa());
         return prehodiZrno.addPrehod(prehodi);
     }
 

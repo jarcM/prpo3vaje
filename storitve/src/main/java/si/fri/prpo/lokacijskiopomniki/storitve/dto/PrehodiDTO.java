@@ -3,9 +3,10 @@ package si.fri.prpo.lokacijskiopomniki.storitve.dto;
 public class PrehodiDTO{
     private Integer uporabnikId;
     private Integer idVhoda;
+    private Integer idIzhoda;
     private Integer prehodProstor;
-    private String časVstopa;
-    private String časIzstopa;
+    private String casVstopa;
+    private String casIzstopa;
 
     public Integer getUporabnikId(){
         return uporabnikId;
@@ -21,11 +22,11 @@ public class PrehodiDTO{
         this.idVhoda=idVhoda;
     }
 
-    public Integer getčasIzstopa(){
-        return časIzstopa;
+    public String getcasIzstopa(){
+        return casIzstopa;
     }
-    public void setčasIzstopa(Integer časIzstopa){
-        this.časIzstopa=idIzhoda;
+    public void setcasIzstopa(String casIzstopa){
+        this.casIzstopa = casIzstopa;
     }
 
     public Integer getidIzhoda(){
@@ -35,11 +36,11 @@ public class PrehodiDTO{
         this.idIzhoda=idIzhoda;
     }
 
-    public Integer getčasVstopa(){
-        return časVstopa;
+    public String getcasVstopa(){
+        return casVstopa;
     }
-    public void setčasVstopa(Integer časVstopa){
-        this.časVstopa=idIzhoda;
+    public void setcasVstopa(String casVstopa){
+        this.casVstopa = casVstopa;
     }
 
 }

@@ -49,7 +49,7 @@ public class Prehodi {
 
     public String getCasIzstopa(){return casVstopa;}
 
-    public void setCasIzstopatopa(String casIzstopa){this.casVstopa = casIzstopa;}
+    public void setCasIzstopa(String casIzstopa){this.casVstopa = casIzstopa;}
 
     public Uporabnik getUporabnikId(){return uporabnikId;}
 
