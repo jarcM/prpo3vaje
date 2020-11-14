@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="Reading correctly">
+    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="Popravek errorjev">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/src/main/java/si/fri/prpo/lokacijskiopomniki/entitete/Prehodi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -113,7 +124,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1605370199180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Popravek errorjev">
+      <created>1605373012794</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1605373012794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reading correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading correctly" />
+    <MESSAGE value="Popravek errorjev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Popravek errorjev" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1180" y="592" width="485" height="216" key="#Assign_Data_Sources" timestamp="1605366999107">
@@ -202,10 +220,10 @@
     </state>
     <state x="141" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605194802857" />
     <state x="141" y="226" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605367159575" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605370204052">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605373025069">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605370204052" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605373025069" />
     <state x="538" y="384" width="417" height="279" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605197594829">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
