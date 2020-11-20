@@ -52,10 +52,11 @@ public class PrehodiZrno {
         return prehod;
     }
     @Transactional
-    public void updatePrehod(int idOsebe,Prehodi prehod){
+    public Prehodi updatePrehod(int idOsebe,Prehodi prehod){
         Prehodi asd=em.find(Prehodi.class,idOsebe);
         prehod.setIdPrehoda(asd.getIdPrehoda());
         em.merge(prehod);
+        return em.find(Prehodi.class,id);
     }
 
     @Transactional

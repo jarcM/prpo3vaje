@@ -1,7 +1,7 @@
 package si.fri.prpo.lokacijskiopomniki.storitve;
 
 import si.fri.prpo.lokacijskiopomniki.entitete.Uporabnik;
-
+import si.fri.prpo.lokacijskiopomniki.storitve.anotacije.BeleziKlice;
 import javax.enterprise.context.ApplicationScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.*;
@@ -42,6 +42,7 @@ public class UporabnikZrno {
 
     //Create update read delete
     @Transactional
+    @BeleziKlice
     public Uporabnik addUporabnik(Uporabnik uporabnik){
         if(uporabnik!=null) {
             em.persist(uporabnik);
@@ -53,7 +54,7 @@ public class UporabnikZrno {
         Uporabnik asd=em.find(Uporabnik.class,idOsebe);
         uporabnik.setId(asd.getId());
         em.merge(uporabnik);
-        return uporabnik;
+        return em.find(Uporabnik.class,id);
     }
 
     @Transactional

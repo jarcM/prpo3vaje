@@ -56,7 +56,7 @@ public class ProstorZrno {
         Prostor p=em.find(Prostor.class,idOsebe);
         prostor.setidProstora(p.getIdProstora());
         em.merge(prostor);
-        return prostor;
+        return em.find(Prostor.class,id);
     }
 
     @Transactional

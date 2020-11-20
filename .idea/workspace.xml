@@ -22,11 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="updated gitIgnore">
+    <list default="true" id="90d6af42-25ef-4b66-a99b-ab50fccace69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/v1/viri/PrehodiVir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/viri/ProstorVir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/viri/UporabnikVir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/StevecZrno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/anotacije/BeleziKlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/interceptor/BeleziKliceInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/servleti/JPAServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UpravljanjePrehodiZrno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/dto/PrehodiDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entitete/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/entitete/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/PrehodiZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/PrehodiZrno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/ProstorZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/ProstorZrno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/java/si/fri/prpo/lokacijskiopomniki/storitve/UporabnikZrno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storitve/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storitve/src/main/resources/META-INF/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,15 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,29 +187,33 @@
     </state>
     <state x="232" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605197631177" />
     <state x="753" y="329" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605366696507" />
+    <state x="375" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605901512534">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="375" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1605901512534" />
     <state x="420" y="278" key="FileChooserDialogImpl" timestamp="1605194038374">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605194038374" />
-    <state width="2517" height="396" key="GridCell.Tab.0.bottom" timestamp="1605377072273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="896" height="309" key="GridCell.Tab.0.bottom" timestamp="1605901047683">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="317" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
+    <state width="896" height="309" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605901047683" />
     <state width="2517" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
-    <state width="2517" height="396" key="GridCell.Tab.0.center" timestamp="1605377072273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="896" height="309" key="GridCell.Tab.0.center" timestamp="1605901047683">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="317" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
+    <state width="896" height="309" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605901047683" />
     <state width="2517" height="396" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
-    <state width="2517" height="396" key="GridCell.Tab.0.left" timestamp="1605377072273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="896" height="309" key="GridCell.Tab.0.left" timestamp="1605901047683">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="317" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722791" />
+    <state width="896" height="309" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605901047683" />
     <state width="2517" height="396" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
-    <state width="2517" height="396" key="GridCell.Tab.0.right" timestamp="1605377072273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="896" height="309" key="GridCell.Tab.0.right" timestamp="1605901047683">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1235" height="317" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605209722792" />
+    <state width="896" height="309" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605901047683" />
     <state width="2517" height="396" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605377072273" />
     <state width="2517" height="494" key="GridCell.Tab.1.bottom" timestamp="1605372433889">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -250,9 +261,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="458" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605197802180" />
-    <state x="987" y="433" width="587" height="592" key="find.popup" timestamp="1605375011704">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="987" y="322" width="587" height="534" key="find.popup" timestamp="1605901807151">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state x="987" y="322" width="587" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605901807151" />
     <state x="987" y="433" width="587" height="592" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605375011704" />
     <state x="937" y="331" key="run.anything.popup" timestamp="1605376178888">
       <screen x="0" y="0" width="2560" height="1400" />
