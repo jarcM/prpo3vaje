@@ -52,11 +52,11 @@ public class ProstorZrno {
         return prostor;
     }
     @Transactional
-    public Prostor updateProstor(int idOsebe,Prostor prostor){
-        Prostor p=em.find(Prostor.class,idOsebe);
+    public Prostor updateProstor(int idProstor,Prostor prostor){
+        Prostor p=em.find(Prostor.class,idProstor);
         prostor.setidProstora(p.getIdProstora());
         em.merge(prostor);
-        return em.find(Prostor.class,id);
+        return em.find(Prostor.class,idProstor);
     }
 
     @Transactional

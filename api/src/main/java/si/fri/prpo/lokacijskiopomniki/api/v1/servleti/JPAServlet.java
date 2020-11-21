@@ -1,9 +1,9 @@
-package servleti;
+package si.fri.prpo.lokacijskiopomniki.api.v1.servleti;
 
-import si.fri.prpo.lokacijskiopomniki.entitete.Prehodi;
 import si.fri.prpo.lokacijskiopomniki.storitve.PrehodiZrno;
 import si.fri.prpo.lokacijskiopomniki.storitve.UporabnikZrno;
 import si.fri.prpo.lokacijskiopomniki.storitve.UpravljanjePrehodiZrno;
+import si.fri.prpo.lokacijskiopomniki.storitve.StevecZrno;
 import si.fri.prpo.lokacijskiopomniki.storitve.dto.PrehodiDTO;
 
 import javax.inject.Inject;
@@ -26,6 +26,9 @@ public class JPAServlet extends HttpServlet {
     private PrehodiZrno prehodiZrno;
     @Inject
     private UpravljanjePrehodiZrno upravPrehod;
+    @Inject
+    private StevecZrno stevecZrno;
+
 
     private Logger log=Logger.getLogger(JPAServlet.class.getName());
 
@@ -49,7 +52,7 @@ public class JPAServlet extends HttpServlet {
                 .append(o.getUporabnikId().getIme()).append(" Trenutna zasedenost: ")
                 .append(o.getProstorId().getTrenutnaZasedenost().toString()).append(" Najvišja dovoljena zasedenost: ")
                 .append(o.getProstorId().DovoljenoStObiskovalcev().toString()).append("<br>"));
-        log(String.valueOf(uporabnikZrno.getUporabniki()));
+        log(String.valueOf(stevecZrno.povecajStevec()));
 
 
     }

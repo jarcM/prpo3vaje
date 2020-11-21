@@ -1,4 +1,4 @@
-package si.fri.prpo.lokacijskiopomniki.storitve.bean;
+package si.fri.prpo.lokacijskiopomniki.storitve;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.logging.Logger;

@@ -1,4 +1,4 @@
-package si.fri.prpo.lokacijskiopomniki.storitve.interceptorji;
+package si.fri.prpo.lokacijskiopomniki.storitve.interceptor;
 import si.fri.prpo.lokacijskiopomniki.storitve.StevecZrno;
 import si.fri.prpo.lokacijskiopomniki.storitve.anotacije.BeleziKlice;
 import javax.inject.Inject;
@@ -12,8 +12,9 @@ public class BeleziKliceInterceptor {
     private StevecZrno steveczrno;
 
     @AroundInvoke
-    public void dobiSteviloKlicev(){
+    public Object dobiSteviloKlicev(InvocationContext context) throws Exception{
         steveczrno.povecajStevec();
+        return context.proceed();
     }
 
 }

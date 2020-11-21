@@ -36,7 +36,7 @@ public class PrehodiZrno {
         return em.find(Prehodi.class,idPrehoda);
     }
     public List<Prehodi> pridobiPrehodeCriteriaAPI(){
-        CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder() ;
+        CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<Prehodi> query= criteriaBuilder.createQuery(Prehodi.class);
         Root<Prehodi> from =query.from(Prehodi.class);
         query.select(from);
@@ -52,11 +52,11 @@ public class PrehodiZrno {
         return prehod;
     }
     @Transactional
-    public Prehodi updatePrehod(int idOsebe,Prehodi prehod){
-        Prehodi asd=em.find(Prehodi.class,idOsebe);
+    public Prehodi updatePrehod(int idPrehoda,Prehodi prehod){
+        Prehodi asd=em.find(Prehodi.class,idPrehoda);
         prehod.setIdPrehoda(asd.getIdPrehoda());
         em.merge(prehod);
-        return em.find(Prehodi.class,id);
+        return em.find(Prehodi.class,idPrehoda);
     }
 
     @Transactional

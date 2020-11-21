@@ -54,7 +54,7 @@ public class UporabnikZrno {
         Uporabnik asd=em.find(Uporabnik.class,idOsebe);
         uporabnik.setId(asd.getId());
         em.merge(uporabnik);
-        return em.find(Uporabnik.class,id);
+        return em.find(Uporabnik.class,idOsebe);
     }
 
     @Transactional
