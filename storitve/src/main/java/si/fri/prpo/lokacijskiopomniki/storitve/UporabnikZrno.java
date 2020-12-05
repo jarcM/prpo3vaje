@@ -11,6 +11,8 @@ import javax.persistence.criteria.Root;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.logging.Logger;
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 
 @ApplicationScoped
 public class UporabnikZrno {
@@ -66,6 +68,16 @@ public class UporabnikZrno {
         }
         return false;
     }
+    public List<Uporabnik> getUporabniki(QueryParameters query) {
+        return JPAUtils.queryEntities(em, Uporabnik.class, query);
+    }
+
+    public Long getUporabnikiCount(QueryParameters query) {
+        return JPAUtils.queryEntitiesCount(em, Uporabnik.class, query);
+    }
+
+
+
 }
 
 

@@ -13,6 +13,8 @@ import javax.persistence.criteria.Root;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.logging.Logger;
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 
 @ApplicationScoped
 public class PrehodiZrno {
@@ -68,6 +70,13 @@ public class PrehodiZrno {
         }
 
         return false;
+    }
+    public List<Prehodi> getPrehod(QueryParameters query) {
+        return JPAUtils.queryEntities(em, Prehodi.class, query);
+    }
+
+    public Long getPrehodCount(QueryParameters query) {
+        return JPAUtils.queryEntitiesCount(em, Prehodi.class, query);
     }
 }
 

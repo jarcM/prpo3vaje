@@ -1,6 +1,7 @@
 package si.fri.prpo.lokacijskiopomniki.storitve;
 
 import si.fri.prpo.lokacijskiopomniki.entitete.Uporabnik;
+import si.fri.prpo.lokacijskiopomniki.storitve.izjeme.ManjkaUporabnikIzjema;
 
 import si.fri.prpo.lokacijskiopomniki.entitete.Prehodi;
 import si.fri.prpo.lokacijskiopomniki.entitete.Prostor;
@@ -47,9 +48,9 @@ public class UpravljanjePrehodiZrno{
         Uporabnik uporabnik=uporabnikiZrno.pridobiUporabnika(prehodiDTO.getUporabnikId());
 
         if(uporabnik == null){
-            log.info("Ne morem ustvariti novega prehoda. Uporabnik ne obstaja");
+            log.severe("uporabnik not found");
+            throw new ManjkaUporabnikIzjema("Uporabnik not found");
             return null;
-
         }
         Prostor prostor=prostorZrno.pridobiProstor(prehodiDTO.getProstorId());
 
@@ -68,5 +69,6 @@ public class UpravljanjePrehodiZrno{
         prehodi.setCasVstopa(prehodiDTO.getcasVstopa());
         return prehodi;
     }
+
 
 }

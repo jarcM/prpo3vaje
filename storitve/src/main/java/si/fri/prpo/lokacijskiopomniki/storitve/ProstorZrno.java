@@ -14,6 +14,8 @@ import javax.persistence.criteria.Root;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.logging.Logger;
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 
 @ApplicationScoped
 public class ProstorZrno {
@@ -67,6 +69,12 @@ public class ProstorZrno {
             return true;
         }
         return false;
+    }
+    public List<Prostor> getProstor(QueryParameters query) {
+        return JPAUtils.queryEntities(em, Prostor.class, query);
+    }
+    public Long getProstorCount(QueryParameters query) {
+        return JPAUtils.queryEntitiesCount(em, Prostor.class, query);
     }
 }
 

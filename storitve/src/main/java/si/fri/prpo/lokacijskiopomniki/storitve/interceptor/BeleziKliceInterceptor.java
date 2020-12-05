@@ -8,15 +8,14 @@ import java.util.logging.Logger;
 @Interceptor
 @BeleziKlice
 public class BeleziKliceInterceptor {
-    private final Logger log = Logger.getLogger(BeleziKliceInterceptor.class.getName());
 
     @Inject
     private StevecZrno steveczrno;
 
     @AroundInvoke
     public Object dobiSteviloKlicev(InvocationContext context) throws Exception{
-        int st = steveczrno.povecajStevec();
-        log.info("St klicev: " + st);
+        int stejKlice=steveczrno.povecajStevec();
+        log.info(stejKlice);
         return context.proceed();
     }
 
