@@ -8,6 +8,7 @@ import java.util.logging.Logger;
 @Interceptor
 @BeleziKlice
 public class BeleziKliceInterceptor {
+    private final Logger log = Logger.getLogger(BeleziKliceInterceptor.class.getName());
 
     @Inject
     private StevecZrno steveczrno;
@@ -15,7 +16,7 @@ public class BeleziKliceInterceptor {
     @AroundInvoke
     public Object dobiSteviloKlicev(InvocationContext context) throws Exception{
         int stejKlice=steveczrno.povecajStevec();
-        log.info(stejKlice);
+        log.info("Število klicev:" + stejKlice);
         return context.proceed();
     }
 

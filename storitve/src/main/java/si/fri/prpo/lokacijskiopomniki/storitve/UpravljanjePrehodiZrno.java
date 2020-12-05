@@ -50,7 +50,6 @@ public class UpravljanjePrehodiZrno{
         if(uporabnik == null){
             log.severe("uporabnik not found");
             throw new ManjkaUporabnikIzjema("Uporabnik not found");
-            return null;
         }
         Prostor prostor=prostorZrno.pridobiProstor(prehodiDTO.getProstorId());
 

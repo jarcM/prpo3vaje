@@ -29,7 +29,11 @@
             <artifactId>kumuluzee-openapi-mp</artifactId>
             <version>1.0.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.kumuluz.ee.rest</groupId>
+            <artifactId>kumuluzee-rest-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
     </dependencies>
 
     <build>

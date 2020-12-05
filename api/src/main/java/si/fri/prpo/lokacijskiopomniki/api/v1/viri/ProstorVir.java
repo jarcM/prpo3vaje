@@ -8,12 +8,13 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import javax.ws.rs.core.Context;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.headers.Header;
-import io.swagger.v3.oas.annotations.media.ArraySchema;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import org.eclipse.microprofile.openapi.annotations.Operation;
+import org.eclipse.microprofile.openapi.annotations.headers.Header;
+import org.eclipse.microprofile.openapi.annotations.media.Schema;
+import org.eclipse.microprofile.openapi.annotations.media.Content;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponses;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
+import org.eclipse.microprofile.openapi.annotations.parameters.Parameter;
 
 @ApplicationScoped
 @Path("prostor")
@@ -34,18 +35,18 @@ public class ProstorVir {
         QueryParameters query = QueryParameters.query(uriInfo.getRequestUri().getQuery()).build();
         Long prostorCount = prostorZrno.getProstorCount(query);
         return Response
-                .ok(aBean.getArtikli(query))
-                .header("X-Total-Count", artCount)
+                .ok(prostorZrno.getProstor(query))
+                .header("X-Total-Count", prostorCount)
                 .build();
     }
 
-    @Operation(description = "Vrne prostore", summary = "Seznam prostorov",
-            tags = "prostor", responses = {
-            @ApiResponse(responseCode = "200",
+    @Operation(description = "Vrne prostore", summary = "Seznam prostorov")
+            @APIResponses({
+            @APIResponse(responseCode = "200",
                     description = "Seznam prostorov",
-                    content = @Content(array = @ArraySchema(schema = @Schema(implementation = Artikel.class))),
+                    content = @Content(schema = @Schema(implementation = Prostor.class)),
                     headers = {@Header(name = "X-Total-Count", description = "Število vrnejenih prostorov")})
-    })
+            })
 
     @GET
     @Path("{id}")
@@ -60,12 +61,12 @@ public class ProstorVir {
         }
 
     }
-    @Operation(description = "Dodaj prostor", summary = "Dodajanje prostora",
-            tags = "prostor", responses = {
-            @ApiResponse(responseCode = "201",
+    @Operation(description = "Dodaj prostor", summary = "Dodajanje prostora")
+    @APIResponses({
+            @APIResponse(responseCode = "201",
                     description = "Prostor dodan"
             ),
-            @ApiResponse(responseCode = "405", description = "Napaka")
+            @APIResponse(responseCode = "405", description = "Napaka")
     })
 
 
@@ -78,9 +79,9 @@ public class ProstorVir {
                 .build();
     }
 
-    @Operation(description = "Posodobi prostor", summary = "Posodabljanje prostora",
-            tags = "prostor", responses = {
-            @ApiResponse(responseCode = "201", description = "Prostor uspešno posodobljen"
+    @Operation(description = "Posodobi prostor", summary = "Posodabljanje prostora")
+           @APIResponses({
+            @APIResponse(responseCode = "201", description = "Prostor uspešno posodobljen"
             )
     })
 
@@ -98,7 +99,7 @@ public class ProstorVir {
             description = "Zbrisanje prostora", required = true)
                                   @PathParam("id") Integer id){
         return Response .status(Response.Status.OK)
-                .entity(prostorZrno.odstraniProstor(id))
+                .entity(prostorZrno.deleteProstor(id))
                 .build();
     }
 
