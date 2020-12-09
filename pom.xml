@@ -61,30 +61,14 @@
                 <artifactId>entitete</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>javax.persistence</groupId>
-                <artifactId>javax.persistence-api</artifactId>
-                <version>2.2</version>
-            </dependency>
-            <dependency>
-                <groupId>com.kumuluz.ee</groupId>
-                <artifactId>kumuluzee-json-p-jsonp</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>com.kumuluz.ee</groupId>
-                <artifactId>kumuluzee-json-b-yasson</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>com.kumuluz.ee.rest</groupId>
-                <artifactId>kumuluzee-rest-core</artifactId>
-                <version>${kumuluzee-rest.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.kumuluz.ee.openapi</groupId>
                 <artifactId>kumuluzee-openapi-mp</artifactId>
-                <version>${kumuluzee-openapi.version}</version>
+                <version>1.4.0</version>
             </dependency>
         </dependencies>
+
     </dependencyManagement>
 
 </project>
