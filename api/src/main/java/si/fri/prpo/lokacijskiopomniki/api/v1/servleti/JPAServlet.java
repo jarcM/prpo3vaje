@@ -53,7 +53,5 @@ public class JPAServlet extends HttpServlet {
                 .append(o.getProstorId().getTrenutnaZasedenost().toString()).append(" Najvišja dovoljena zasedenost: ")
                 .append(o.getProstorId().DovoljenoStObiskovalcev().toString()).append("<br>"));
         log(String.valueOf(stevecZrno.povecajStevec()));
-
-
     }
 }

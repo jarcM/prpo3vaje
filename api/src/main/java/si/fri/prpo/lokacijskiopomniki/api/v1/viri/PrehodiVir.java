@@ -1,6 +1,5 @@
 package si.fri.prpo.lokacijskiopomniki.api.v1.viri;
 
-//import org.eclipse.microprofile.openapi.*;
 import org.eclipse.microprofile.openapi.annotations.*;
 import si.fri.prpo.lokacijskiopomniki.storitve.PrehodiZrno;
 import si.fri.prpo.lokacijskiopomniki.entitete.Prehodi;
