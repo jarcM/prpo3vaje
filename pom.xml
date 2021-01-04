@@ -22,6 +22,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kumuluzee.version>3.11.0</kumuluzee.version>
+        <kumuluzee-health.version>2.0.1</kumuluzee-health.version>
+        <kumuluzee-discovery.version>1.1.1</kumuluzee-discovery.version>
         <postgresql.version>42.2.18</postgresql.version>
         <kumuluzee-rest.version>1.4.0</kumuluzee-rest.version>
         <kumuluzee-openapi.version>1.0.1</kumuluzee-openapi.version>
@@ -36,6 +38,22 @@
                 <version>${kumuluzee.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kumuluz.ee.discovery</groupId>
+                <artifactId>kumuluzee-discovery-etcd</artifactId>
+                <version>${kumuluzee-discovery.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kumuluz.ee.config</groupId>
+                <artifactId>kumuluzee-config-etcd</artifactId>
+                <version>${kumuluzee-config.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kumuluz.ee.health</groupId>
+                <artifactId>kumuluzee-health</artifactId>
+                <version>${kumuluzee-health.version}</version>
             </dependency>
 
             <dependency>
