@@ -23,3 +23,9 @@ kumuluzee:
         jndi-name: jdbc/LokacijskiOpomnikiDS
       disk-space-health-check:
         threshold: 100000000
+  cors-filter:
+    annotations:
+      professors-resource:
+        allow-generic-http-requests: true
+        allow-origin: "*"
+        supported-methods: "GET, POST, HEAD, OPTIONS, DELETE"
